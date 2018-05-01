@@ -1,0 +1,75 @@
+section {
+	float: left;
+	width: 80%;
+}
+aside {
+	float: right;
+	width: 15%;
+}
+
+#inputTxt {
+	margin: 17px 5px 0 15px;
+	width: calc(100% - 33px);
+}
+#submitBttn {
+	margin: 8px 5px 15px 15px;
+	width: calc(100% - 30px);
+}
+
+header {
+	background-color: rgb(5, 63, 34);
+	border: 2px solid #444;
+	border-style: none none solid none;
+}
+
+main {
+	clear: both;
+}
+
+#gifPreloader {
+	display: none;
+}
+
+.gifDiv {
+	float: left;
+	margin: 15px;
+	padding: 5px;
+	font-weight: bold;
+	
+}
+.gifDiv:hover {
+	border-color: black;
+}
+.gifDiv span {
+	float: left;
+	margin-bottom: 5px;
+}
+.gifDiv img {
+	float: left;
+	clear: both;
+	height: 200px;
+}
+
+#credits {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+
+	height: 25px;
+}
+
+.clearfix::after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.button {
+	color: #EEE;
+	background-color: rgb(182, 102, 11);
+	border-radius: 8px;
+	border: 1.5px solid rgb(22, 6, 29);
+}
+#buttonContainer .button {
+	margin: 5px;
+}
